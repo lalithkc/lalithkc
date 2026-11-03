@@ -7,7 +7,6 @@
 <p align="center">
   <a href="mailto:lalithkumar.b.sreeni@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
   <a href="mailto:s.lalithkumar@iitg.ac.in"><img src="https://img.shields.io/badge/IITG%20Mail-0A66C2?style=flat&logo=maildotru&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=lalithkc&style=flat&color=blue" alt="profile views"/>
 </p>
 
 ---
@@ -17,7 +16,6 @@
 - I design hardware from RTL to silicon: microarchitecture, Verilog/SystemVerilog, synthesis, place & route, sign-off.
 - **Research Intern, IIT Guwahati (May–Aug 2026):** validated RTL-to-GDSII flows for a sovereign **HF RFID Reader ASIC** on **SCL 180nm** with Cadence and Synopsys tools, compared **Shakti E-Class** and **PicoRV32** cores for the team's core selection, and wrote **AMBA APB** bridges between the core, SRAM and the encryption engine.
 - Currently working on a **low-power CKKS homomorphic encryption accelerator** (NTT engine + homomorphic MAC core).
-- Former **Executional Head, Technothlon'25**: scaled an international school championship to 40,000+ participants across 800+ centers.
 
 ---
 
@@ -29,7 +27,7 @@
 | [**Systolic-Array**](https://github.com/lalithkc/Systolic-Array) | 4x4 INT8 weight-stationary systolic accelerator | Reuses a 4-lane SIMD MAC datapath · AXI4-Lite slave wrapper · 2x2 round-robin crossbar, deadlock-free with 2 masters / 2 slaves |
 | [**2-stage-OTA**](https://github.com/lalithkc/2-stage-OTA) | Miller-compensated two-stage OTA, TSMC 180nm | 64.28 dB gain · 61° PM · 15 MHz UGB · 526 µW · 38.68 V/µs slew |
 | [**UART-Communication-System**](https://github.com/lalithkc/UART-Communication-System) | UART TX/RX with FIFOs on a Nexys4 DDR (Artix-7) | Parameterised baud tick generator, 16x oversampling, Vivado project script |
-| [**Analog-Calculator**](https://github.com/lalithkc/Analog-Calculator) | Analog computer for +, −, ×, nth root | Wi-Fi input via NodeMCU, PWM-to-DC inputs, op-amp circuits · Kriti 2024 |
+| [**Analog-Calculator**](https://github.com/lalithkc/Analog-Calculator) | Analog computer for +, −, ×, nth root | Wi-Fi input via NodeMCU, PWM-to-DC inputs, op-amp circuits |
 | [**Rain-Rain-Go-Away**](https://github.com/lalithkc/Rain-Rain-Go-Away) | Rain-sensing wiper controller with no microcontroller | Op-amp ADC, shift-register/MUX PWM generator, 4 speed levels |
 | [**detecting-parkinsons-disease**](https://github.com/lalithkc/detecting-parkinsons-disease) | ML classifier for Parkinson's from voice features | Logistic regression, decision tree, random forest, gradient boosting (scikit-learn) |
 
@@ -52,15 +50,6 @@
   <img src="https://img.shields.io/badge/Tcl-4E9A06?style=flat"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
 </p>
-
----
-
-### Achievements
-
-- 🥉 **Kriti 2024** – 3rd place, *Fight of Flight* (Aeromodelling)
-- 🏅 **Kriti 2024** – 5th place, *Beyond the Bits* (Electronics)
-- 🥈 **Manthan 2024** – 2nd place, Asian Parliamentary Debate
-- 🧩 **Technothlon** – Question Paper Head for a national-level logical reasoning exam
 
 ---
 
