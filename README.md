@@ -15,6 +15,7 @@
 
 - I design hardware from RTL to silicon: microarchitecture, Verilog/SystemVerilog, synthesis, place & route, sign-off.
 - **Research Intern, IIT Guwahati (May–Aug 2026):** validated RTL-to-GDSII flows for a sovereign **HF RFID Reader ASIC** on **SCL 180nm** with Cadence and Synopsys tools, compared **Shakti E-Class** and **PicoRV32** cores for the team's core selection, and wrote **AMBA APB** bridges between the core, SRAM and the encryption engine.
+- **RISC-V SoC on SCL 180nm (2026):** integrated a PicoRV32 SoC with an NPU, a uFPGA and an RFID/crypto macro, and took it from RTL to a chip GDS with a CIO250 pad ring. Added a flash-to-SRAM boot DMA, byte-lane SRAM and RV32IM, then closed sign-off: **Calibre LVS clean, antenna clean**, PrimeTime timing met, equivalence checked.
 - Currently working on a **low-power CKKS homomorphic encryption accelerator** (NTT engine + homomorphic MAC core).
 
 ---
@@ -23,6 +24,7 @@
 
 | Project | What it is | Highlights |
 |---|---|---|
+| **SoC Integration** *(private)* | PicoRV32 SoC + NPU, uFPGA and RFID/crypto macros on SCL 180nm (4M1L) | 4 × 4 mm die, 28-pad CIO250 ring · flash-to-SRAM boot DMA with CRC check · 4 byte-lane SRAM macros · Genus → ICC2 → PrimeTime → Calibre: **LVS clean, 0 antenna**, setup/hold met at 50 MHz · Conformal LEC RTL ≡ layout netlist |
 | [**7-Stage-RV32I-Core**](https://github.com/lalithkc/7-Stage-RV32I-Core) | Dual-core RV32I RISC-V SoC, RTL through GDSII | 2-wide, 7-stage dual-issue pipeline · MESI-lite coherence · 64-entry BTB · ICC2 on SCL180nm, **143 MHz, zero WNS**, 100% routed, clean GDSII · Formality + Xcelium GLS |
 | [**Systolic-Array**](https://github.com/lalithkc/Systolic-Array) | 4x4 INT8 weight-stationary systolic accelerator | Reuses a 4-lane SIMD MAC datapath · AXI4-Lite slave wrapper · 2x2 round-robin crossbar, deadlock-free with 2 masters / 2 slaves |
 | [**2-stage-OTA**](https://github.com/lalithkc/2-stage-OTA) | Miller-compensated two-stage OTA, TSMC 180nm | 64.28 dB gain · 61° PM · 15 MHz UGB · 526 µW · 38.68 V/µs slew |
@@ -37,8 +39,9 @@
 
 **HDLs:** Verilog · SystemVerilog
 **Languages:** C/C++ · Python · Tcl
-**Synopsys:** SpyGlass · Design Compiler · Formality · VCS · IC Compiler II
-**Cadence:** Xcelium · Genus · Innovus · Voltus
+**Synopsys:** SpyGlass · Design Compiler · Formality · VCS · IC Compiler II · PrimeTime
+**Cadence:** Xcelium · Genus · Innovus · Voltus · Conformal LEC
+**Siemens EDA:** Calibre (DRC / LVS / antenna)
 **Other:** Vivado · LTspice · MATLAB · Linux · Git
 
 <p>
